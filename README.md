@@ -1,4 +1,8 @@
 # S3 Zipper 
+Zipping S3 Object files using Lambda when it comes to the size can be an issue. By default you can only download 500MB to lambda /tmp directory.
+
+This solution which is based on the following article and code [link](https://gist.github.com/amiantos/16bacc9ed742c91151fcf1a41012445e), uses the node js streaming pattern for this purpose.
+
 The following diagram shows how the overall systems work:
 
 ![](https://i.imgur.com/AHHGWbP.png)
@@ -123,3 +127,6 @@ REPORT RequestId: 6076c50c-c137-46d1-9066-b62de772271b	Duration: 210068.61 ms	Bi
 
 
 ```
+
+## References
+- https://gist.github.com/amiantos/16bacc9ed742c91151fcf1a41012445e
