@@ -1,0 +1,11 @@
+{
+    "bucket": "your-bucket",
+    "destination_key": "zips/test.zip",
+    "files": [
+        {
+            "uri": "(options: S3 file key or URL)",
+            "filename": "(filename of file inside zip)",
+            "type": "(options: [file, url])"
+        }
+    ]
+}
